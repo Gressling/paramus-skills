@@ -1,9 +1,9 @@
-# SKILL.md — PARAMUS Chemistry & Materials Science
+# SKILL.md — PARAMUS Chemistry
 
 ## Server Identity
 
 - **Name**: `io.github.gressling/paramus-chemistry`
-- **Title**: PARAMUS Chemistry & Materials Science
+- **Title**: PARAMUS Chemistry
 - **Version**: 2.0.0
 - **Endpoint**: `https://cloud1.paramus.ai/mcp`
 
@@ -203,3 +203,4 @@
   experimentally for critical applications.
 - CoolProp covers ~120 pure fluids — not every substance is available.
 - No arbitrary code execution — all tools are pre-registered handler functions.
+
