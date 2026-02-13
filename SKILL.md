@@ -144,19 +144,20 @@
 
 ---
 
-### materials.polymer_prediction
+### materials.polymer_analysis
 
-**Description**: Predict polymer and material properties using ML models  
+**Description**: Analyze polymer structures, compute fingerprints, and validate BigSMILES notation  
 **Category**: Materials Science  
-**Tools**: `predict_tg`, `polymer_fingerprint`, `bigsmiles_parse`, `bigsmiles_validate`
+**Tools**: `get_polymer_fingerprint`, `validate_bigsmiles`, `parse_psmiles_info`, `randomize_psmiles`, `dimerize_psmiles`, `compute_polymer_similarity`
 
 **Example prompts**:
-- "Predict the glass transition temperature of polystyrene"
-- "Parse this BigSMILES string"
 - "Generate a polymer fingerprint for polyethylene"
+- "Validate this BigSMILES string: {[][<]CC(C)[>][<]CC[>][]}CC"
+- "Parse this BigSMILES and show its structural info"
+- "Compare the similarity of two polymer structures"
 
-**Input**: SMILES, BigSMILES, or text description  
-**Output**: Predicted properties or processed polymer representations
+**Input**: SMILES or BigSMILES string  
+**Output**: Fingerprints, validation results, or structural information
 
 ---
 
